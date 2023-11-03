@@ -1,14 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @font-face {
   font-family: "typewriter";
   src: url("typewriter.otf") format("opentype");
 }
 @font-face {
-  font-family: "typewriter-thin";
-  src: url("typewriter.otf") format("opentype");
+  font-family: "typewriterThin";
+  src: url("typewriterThin.otf") format("opentype");
 }
 @font-face {
-  font-family: "typewriter";
-  src: url("typewriter.otf") format("opentype");
+  font-family: "typewriterBlack";
+  src: url("typewriterBlack.otf") format("opentype");
+}
+@font-face {
+  font-family: "typewriterBold";
+  src: url("typewriterBold.otf") format("opentype");
 }
 
 * {
@@ -23,17 +28,26 @@ body {
   background-color: bisque;
 }
 body div {
-  font-family: "typewriter";
+  font-family: "typewriterBold";
+  /* font-family: "League Spartan"; */
   margin: 5rem;
   width: 40%;
   font-size: 1.5rem;
+  text-align: justify;
 }
 
 p {
   margin: 2rem 0rem;
 }
 .oznaczenie {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: "typewriterThin";
+  /* font-family: "League Spartan"; */
+}
+.skip {
+  color: grey;
+  font-family: "typewriterThin";
+  /* font-family: "League Spartan"; */
 }
