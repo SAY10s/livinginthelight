@@ -1,5 +1,39 @@
+@font-face {
+  font-family: "typewriter";
+  src: url("typewriter.otf") format("opentype");
+}
+@font-face {
+  font-family: "typewriter-thin";
+  src: url("typewriter.otf") format("opentype");
+}
+@font-face {
+  font-family: "typewriter";
+  src: url("typewriter.otf") format("opentype");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: bisque;
+}
+body div {
+  font-family: "typewriter";
+  margin: 5rem;
+  width: 40%;
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 2rem 0rem;
+}
+.oznaczenie {
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 1rem;
 }
